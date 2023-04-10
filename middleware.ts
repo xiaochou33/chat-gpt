@@ -10,7 +10,6 @@ export function middleware(req: NextRequest) {
   const accessCode = req.headers.get("access-code");
   const token = req.headers.get("token");
   const hashedCode = md5.hash(accessCode ?? "").trim();
-  token = "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";
   console.log("[Auth] allowed hashed codes: ", [...ACCESS_CODES]);
   console.log("[Auth] got access code:", accessCode);
   console.log("[Auth] hashed access code:", hashedCode);
