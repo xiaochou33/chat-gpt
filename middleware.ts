@@ -29,9 +29,8 @@ export function middleware(req: NextRequest) {
   }
 
   // inject api key
-  // if (!token) {
-    // const apiKey = process.env.OPENAI_API_KEY;
-    const apiKey = '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';
+  if (!token) {
+    const apiKey = process.env.OPENAI_API_KEY;
     if (apiKey) {
       console.log("[Auth] set system token");
       req.headers.set("token", apiKey);
@@ -46,9 +45,9 @@ export function middleware(req: NextRequest) {
         },
       );
     }
-  // } else {
-  //   console.log("[Auth] set user token");
-  // }
+  } else {
+    console.log("[Auth] set user token");
+  }
 
   return NextResponse.next({
     request: {
