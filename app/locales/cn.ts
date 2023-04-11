@@ -145,7 +145,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "需要授权码的请联系QQ:780924523,全网最低价!",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
