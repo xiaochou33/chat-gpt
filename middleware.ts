@@ -10,7 +10,6 @@ export function middleware(req: NextRequest) {
   const accessCode = req.headers.get("access-code");
   const token = req.headers.get("token");
   const hashedCode = md5.hash(accessCode ?? "").trim();
-
   console.log("[Auth] allowed hashed codes: ", [...ACCESS_CODES]);
   console.log("[Auth] got access code:", accessCode);
   console.log("[Auth] hashed access code:", hashedCode);
@@ -31,6 +30,7 @@ export function middleware(req: NextRequest) {
   // inject api key
   if (!token) {
     const apiKey = process.env.OPENAI_API_KEY;
+    // const apiKey = "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";
     if (apiKey) {
       console.log("[Auth] set system token");
       req.headers.set("token", apiKey);
