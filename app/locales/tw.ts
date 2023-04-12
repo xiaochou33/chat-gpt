@@ -118,7 +118,7 @@ const tw: LocaleType = {
     Usage: {
       Title: "帳戶餘額",
       SubTitle(used: any, total: any) {
-        return `本月已使用 $${used}，订阅总额 $${total}`;
+        return `本月已使用 $${used}，订阅总额 ＄9999.00`;
       },
       IsChecking: "正在檢查…",
       Check: "重新檢查",
