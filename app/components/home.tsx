@@ -176,7 +176,7 @@ function _Home() {
         className={styles.sidebar + ` ${showSideBar && styles["sidebar-show"]}`}
       >
         <div className={styles["sidebar-header"]}>
-          <div className={styles["sidebar-title"]}>ChatGPT Next</div>
+          <div className={styles["sidebar-title"]}>ChatGPT-Plus</div>
           <div className={styles["sidebar-sub-title"]}>
             基于Chat-3.5的chatgpt,需要授权码请联系QQ:780924523[寻找合伙人!]
           </div>
