@@ -85,7 +85,7 @@ const cn = {
       IsLatest: "已是最新版本",
       CheckUpdate: "检查更新",
       IsChecking: "正在检查更新...",
-      FoundUpdate: (x: string) => `发现新版本：[正在接入更新更快的模型...]`,
+      FoundUpdate: (x: string) => `[正在接入更新更快的模型...]`,
       GoToUpdate: "前往更新",
     },
     SendKey: "发送键",
