@@ -81,7 +81,7 @@ const cn = {
     },
 
     Update: {
-      Version: (x: string) => `当前版本：ChatGpt-Plus`,
+      Version: (x: string) => `当前版本：ChatGpt-plus`,
       IsLatest: "已是最新版本",
       CheckUpdate: "检查更新",
       IsChecking: "正在检查更新...",
