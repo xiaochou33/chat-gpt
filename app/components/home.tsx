@@ -178,7 +178,7 @@ function _Home() {
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>ChatGPT-Plus</div>
           <div className={styles["sidebar-sub-title"]}>
-            本站已接入chat高阶api,这就意味着成本变高了,速度变快了,请合理使用,不要问一些没头脑的问题,需要授权码请联系QQ:780924523[寻找合伙人!]
+            本站已接入chat高阶api,这就意味着成本变高了,速度变快了,请合理使用,不要问一些没头脑的问题,需要授权码请联系QQ:780924523 && 2623537618[寻找合伙人!]
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
