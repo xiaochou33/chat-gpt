@@ -3,7 +3,7 @@ import { SubmitKey } from "../store/app";
 const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized: "现在是未授权状态，请点击左下角设置按钮输入访问密码。\n需要授权码请联系QQ:780924523",
+    Unauthorized: "新平台已经上线，地址：http://chaipro.52chye.cn/?#/registry?userInviteCode=x1YxUm",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
